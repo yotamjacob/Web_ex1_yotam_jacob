@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- profile #4 -->
+    <div class="card">
+        <center>
+            <img src="pic4.jpg" alt="pic4" width="300" height="300">
+            <h1>Jennifer</h1>
+            <p class="title">Hobbies: Oscars Winning</p>
+            <p>School: Street-smart</p>
+            <p>Cell: +972528828662</p>
+            <p>E-Mail: Jennifer@gmail.com</p>
+
+            <script type="text/javascript">
+                var clicks4 = 0;
+                function onClick4() {
+                    clicks4 += 1;
+                    document.getElementById("clicks4").innerHTML = clicks4;
+                }
+            </script>
+
+            <p><button type="button" onClick="onClick4()">Like Me! <i class="glyphicon glyphicon-thumbs-up"></i></button></p>
+            <p>Likes: <a id="clicks4">0</a></p>
+            <p> <a href="./menu.html">Go Back</a></p>
+        </center>
+    </div>
+</body>
+</html>

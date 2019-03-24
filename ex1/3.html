@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- profile #3 -->
+    <div class="card">
+        <center>
+            <img src="pic3.jpg" alt="pic3" width="300" height="300">
+            <h1>Jane Doe</h1>
+            <p class="title">Hobbies: None</p>
+            <p>School: Kindergarden</p>
+            <p>Cell: +972528828662</p>
+            <p>E-Mail: JaneDoe@gmail.com</p>
+
+            <script type="text/javascript">
+                var clicks3 = 0;
+                function onClick3() {
+                    clicks3 += 1;
+                    document.getElementById("clicks3").innerHTML = clicks3;
+                }
+            </script>
+
+            <p><button type="button" onClick="onClick3()">Like Me! <i class="glyphicon glyphicon-thumbs-up"></i></button></p>
+            <p>Likes: <a id="clicks3">0</a></p>
+            <p> <a href="./menu.html">Go Back</a></p>
+        </center>
+    </div>
+</body>
+</html>

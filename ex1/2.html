@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- profile #2 -->
+    <div class="card">
+        <center>
+            <img src="pic2.jpg" alt="pic2" width="300" height="300">
+            <h1>Harry Potter</h1>
+            <p class="title">Hobbies: Magics, Recreational Drugs</p>
+            <p>School: Hogwarts</p>
+            <p>Cell: +972528828662</p>
+            <p>E-Mail: HarryPotter@gmail.com</p>
+
+            <script type="text/javascript">
+                var clicks2 = 0;
+                function onClick2() {
+                    clicks2 += 1;
+                    document.getElementById("clicks2").innerHTML = clicks2;
+                }
+            </script>
+
+            <p><button type="button" onClick="onClick2()">Like Me! <i class="glyphicon glyphicon-thumbs-up"></i></button></p>
+            <p>Likes: <a id="clicks2">0</a></p>
+            <p> <a href="./menu.html">Go Back</a></p>
+        </center>
+    </div>
+</body>
+</html>
